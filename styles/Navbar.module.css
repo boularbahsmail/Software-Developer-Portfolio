@@ -1,0 +1,19 @@
+/* Toggle Menu */
+.hamburger.open span:nth-child(1) {
+    transform: rotate(-45deg);
+    transform-origin: center;
+}
+
+.hamburger.open span:nth-child(2) {
+    display: none;
+}
+
+.hamburger.open span:nth-child(3) {
+    transform: rotate(45deg);
+    transform-origin: center;
+    margin-top: -7.8px;
+}
+
+.menu.open {
+    display: block;
+}
