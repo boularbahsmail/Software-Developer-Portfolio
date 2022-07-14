@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Experiences from '../components/Experiences';
+import Works from '../components/Works';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <Experiences />
+        <Works />
       </div>
     </div>
   )
