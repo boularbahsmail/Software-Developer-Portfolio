@@ -5,14 +5,14 @@ const Navbar = () => {
     const [menuOpen, SetMenuOpen] = useState(false);
     return (
         <header className="py-3 px-2 flex justify-between items-center flex-wrap lg:py-7">
-            <div className="z-50">
+            <div className={`z-50 ${styles.brand} ${menuOpen ? `${styles.open}` : ""}`}>
                 <h2 className="text-2xl text-white font-bold">
                     <a href="" title="John Doe">John Doe</a>
                 </h2>
             </div>
             <nav>
                 <ul 
-                    className={`hidden absolute left-0 top-0 m-0 py-20 px-2 bg-black z-40 w-52 min-h-full sm:w-auto sm:bg-transparent sm:flex sm:py-0 sm:static sm:left-unset sm:top-unset ${styles.menu} ${menuOpen ? `${styles.open}` : ""}`}>
+                    className={`hidden fixed left-0 top-0 m-0 py-20 px-2 bg-black z-40 w-52 h-full sm:w-auto sm:bg-transparent sm:flex sm:py-0 sm:static sm:left-unset sm:top-unset ${styles.menu} ${menuOpen ? `${styles.open}` : ""}`}>
                     <li className="mb-4 mx-3 sm:mb-0" title="About">
                         <a href="" className="text-2xs text-white font-semibold ease-in-out duration-150 hover:text-teal-400">
                             About

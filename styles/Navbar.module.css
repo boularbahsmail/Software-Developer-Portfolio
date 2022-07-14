@@ -1,4 +1,10 @@
 /* Toggle Menu */
+.hamburger.open {
+    position: fixed;
+    top: 32px;
+    right: 15px;
+}
+
 .hamburger.open span:nth-child(1) {
     transform: rotate(-45deg);
     transform-origin: center;
@@ -16,4 +22,9 @@
 
 .menu.open {
     display: block;
+}
+
+.brand.open {
+    position: fixed;
+    padding-top: 32px;
 }
