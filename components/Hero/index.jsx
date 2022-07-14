@@ -2,8 +2,8 @@ import React from 'react';
 
 // React Icons
 import { SiHey } from "react-icons/si";
-import { RiProfileLine } from "react-icons/ri";
-import { RiContactsBookLine } from "react-icons/ri";
+import { RiProfileLine, RiContactsBookLine } from "react-icons/ri";
+import { FiLinkedin, FiGithub, FiTwitter } from "react-icons/fi";
 
 const Hero = () => {
   return (
@@ -34,7 +34,26 @@ const Hero = () => {
             </a>
           </button>
         </div>
-        <div className="flex justify-start items-center flex-wrap gap-2 "></div>
+        <div className="flex flex-col justify-start items-start gap-3">
+          <h4 className="text-xl text-white font-bold">Find me on :</h4>
+          <ul className="flex justify-start items-center flex-wrap gap-3">
+            <li title="Twitter">
+              <a href="" className="text-teal-500 text-md">
+                <FiTwitter />
+              </a>
+            </li>
+            <li title="GitHub">
+              <a href="" className="text-teal-500 text-md">
+                <FiGithub />
+              </a>
+            </li>
+            <li title="LinkedIn">
+              <a href="" className="text-teal-500 text-md">
+                <FiLinkedin />
+              </a>
+            </li>
+          </ul>
+        </div>
     </div>
   )
 }
