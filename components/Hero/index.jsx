@@ -38,17 +38,17 @@ const Hero = () => {
           <h4 className="text-xl text-white font-bold">Find me on :</h4>
           <ul className="flex justify-start items-center flex-wrap gap-3">
             <li title="Twitter">
-              <a href="" className="text-teal-500 text-md">
+              <a href="" className="text-teal-500 text-md ease-in-out duration-300 hover:text-white">
                 <FiTwitter />
               </a>
             </li>
             <li title="GitHub">
-              <a href="" className="text-teal-500 text-md">
+              <a href="" className="text-teal-500 text-md ease-in-out duration-300 hover:text-white">
                 <FiGithub />
               </a>
             </li>
             <li title="LinkedIn">
-              <a href="" className="text-teal-500 text-md">
+              <a href="" className="text-teal-500 text-md ease-in-out duration-300 hover:text-white">
                 <FiLinkedin />
               </a>
             </li>

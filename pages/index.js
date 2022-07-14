@@ -10,7 +10,9 @@ export default function Home() {
     <div className="p-2">
       <Head>
         <title>John Doe - Software Developer</title>
-        <meta name="description" content="Software developer portfolio using Next.js & tailwind CSS." />
+        <meta 
+          name="description" 
+          content="Software developer portfolio using Next.js & tailwind CSS." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
