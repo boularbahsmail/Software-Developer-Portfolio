@@ -4,7 +4,7 @@ import styles from "../../styles/Navbar.module.css";
 const Navbar = () => {
     const [menuOpen, SetMenuOpen] = useState(false);
     return (
-        <header className="py-3 px-3 flex justify-between items-center flex-wrap lg:py-7">
+        <header className="py-3 px-2 flex justify-between items-center flex-wrap lg:py-7">
             <div className="z-50">
                 <h2 className="text-2xl text-white font-bold">
                     <a href="" title="John Doe">John Doe</a>
@@ -12,23 +12,23 @@ const Navbar = () => {
             </div>
             <nav>
                 <ul 
-                    className={`hidden absolute left-0 top-0 m-0 py-20 px-3 bg-black z-40 w-52 min-h-full sm:w-auto sm:bg-transparent sm:flex sm:py-0 sm:static sm:left-unset sm:top-unset ${styles.menu} ${menuOpen ? `${styles.open}` : ""}`}>
-                    <li className="mb-3 mx-3 sm:mb-0" title="About">
+                    className={`hidden absolute left-0 top-0 m-0 py-20 px-2 bg-black z-40 w-52 min-h-full sm:w-auto sm:bg-transparent sm:flex sm:py-0 sm:static sm:left-unset sm:top-unset ${styles.menu} ${menuOpen ? `${styles.open}` : ""}`}>
+                    <li className="mb-4 mx-3 sm:mb-0" title="About">
                         <a href="" className="text-2xs text-white font-semibold ease-in-out duration-150 hover:text-teal-400">
                             About
                         </a>
                     </li>
-                    <li className="mb-3 mx-3 sm:mb-0" title="Skills">
+                    <li className="mb-4 mx-3 sm:mb-0" title="Skills">
                         <a href="" className="text-2xs text-white font-semibold ease-in-out duration-150 hover:text-teal-400">
                             Skills
                         </a>
                     </li>
-                    <li className="mb-3 mx-3 sm:mb-0" title="Projects">
+                    <li className="mb-4 mx-3 sm:mb-0" title="Projects">
                         <a href="" className="text-2xs text-white font-semibold ease-in-out duration-150 hover:text-teal-400">
                             Projects
                         </a>
                     </li>
-                    <li className="mb-3 mx-3 sm:mb-0" title="Contact">
+                    <li className="mb-4 mx-3 sm:mb-0" title="Contact">
                         <a href="" className="text-2xs text-white font-semibold ease-in-out duration-150 hover:text-teal-400">
                             Contact
                         </a>
