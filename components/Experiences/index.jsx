@@ -16,9 +16,9 @@ const Experiences = () => {
                         experiences.map((experience, index) =>
                             <div 
                                 key={index} 
-                                className="bg-cyan-900 p-4 rounded hover:bg-cyan-800"
+                                className="bg-cyan-900 p-4 rounded hover:bg-cyan-800 relative"
                                 title={`${experience.job_title} @${experience.company}`}>
-                                <b className="text-teal-500 text-sm bg-white py-1 px-2 rounded">
+                                <b className="text-teal-500 text-sm bg-white py-1 px-2 rounded absolute left-3 -top-2 hover:bg-teal-500 hover:text-white">
                                     {experience.company}
                                 </b>
                                 <h2 className="mt-4 mb-2 text-xl font-bold text-teal-500">
