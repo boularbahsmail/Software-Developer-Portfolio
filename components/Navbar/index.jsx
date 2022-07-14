@@ -4,7 +4,7 @@ import styles from "../../styles/Navbar.module.css";
 const Navbar = () => {
     const [menuOpen, SetMenuOpen] = useState(false);
     return (
-        <header className="py-3 px-2 flex justify-between items-center flex-wrap lg:py-7">
+        <header className={`py-3 px-2 flex justify-between items-center flex-wrap lg:py-7 ${styles.header} ${menuOpen ? `${styles.open}` : ""}`}>
             <div className={`z-50 ${styles.brand} ${menuOpen ? `${styles.open}` : ""}`}>
                 <h2 className="text-2xl text-white font-bold">
                     <a href="" title="John Doe">John Doe</a>

@@ -34,6 +34,7 @@ const Hero = () => {
             </a>
           </button>
         </div>
+        <div className="flex justify-start items-center flex-wrap gap-2 "></div>
     </div>
   )
 }

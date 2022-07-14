@@ -28,3 +28,7 @@
     position: fixed;
     padding-top: 32px;
 }
+
+.header.open {
+    margin-bottom: 32px;
+}
