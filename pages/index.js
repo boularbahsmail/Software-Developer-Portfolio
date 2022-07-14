@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 // Components
 import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
 
       <div className="max-w-7xl m-auto">
         <Navbar />
+        <Hero />
       </div>
     </div>
   )
