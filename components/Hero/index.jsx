@@ -28,7 +28,7 @@ const Hero = () => {
               </a>
           </button>
           <button className="bg-white py-2 px-4 font-bold text-teal-500 border-2 border-white rounded-md ease-in-out duration-150 hover:text-white hover:bg-transparent hover:border-white" title="Get in touch">
-            <a href="" className="flex justify-start items-center gap-1">
+            <a href="#contact" className="flex justify-start items-center gap-1">
               <span>Get in touch</span>
               <RiContactsBookLine />
             </a>
