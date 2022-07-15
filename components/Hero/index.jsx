@@ -7,7 +7,7 @@ import { FiLinkedin, FiGithub, FiTwitter } from "react-icons/fi";
 
 const Hero = () => {
   return (
-    <div className="py-12 px-2 max-w-4xl m-auto sm:py-24">
+    <div className="py-12 px-2 max-w-4xl m-auto sm:pt-24">
         <h2 className="flex justify-start items-center gap-2 text-xl font-bold text-teal-500 mb-4 sm:text-2xl">
           <span>Hello there</span><SiHey /><span>I am</span>
         </h2>

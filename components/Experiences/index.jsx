@@ -5,7 +5,7 @@ import experiences from "./data/data.js";
 
 const Experiences = () => {
     return (
-        <div className="max-w-6xl m-auto p-4 px-2">
+        <div className="max-w-6xl m-auto p-4 pt-20 px-2" id="experiences">
             <h1 className="text-3xl text-teal-500 font-bold sm:text-4xl sm:leading-10">
                 <span className="text-5xl sm:text-6xl">#06;</span> 
                 <br /> Years Of Professional Experience.

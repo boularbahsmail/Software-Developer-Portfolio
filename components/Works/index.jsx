@@ -8,7 +8,7 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 // 
 const Works = () => {
     return (
-        <div className="max-w-6xl m-auto p-4 pt-10 px-2 sm:pt-20">
+        <div className="max-w-6xl m-auto p-4 pt-10 px-2 sm:pt-20" id="projects">
             <h1 className="text-4xl text-teal-500 font-bold sm:text-5xl">#Latest Works</h1>
             <p className="text-sm text-teal-500 font-semibold mt-3 mb-6 leading-6">
                 Digital Explorers is a knowledge exchange initative
