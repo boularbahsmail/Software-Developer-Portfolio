@@ -7,4 +7,7 @@ A responsive and open source portfolio for software developers (Next.js & Tailwi
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+## Website Screenshot
+<img src="./Software-Developer-Portfolio-Screenshot.png" alt="Software-Developer-Portfolio-Screenshot" />
+
 &copy; 2022 - Made With ❤️ By <a href="https://ismailium.vercel.app/"><b>Ismailium</b></a>, using <a href="https://nextjs.org/"><b>Next.js</b></a> and <a href="https://tailwindcss.com/"><b>Tailwind CSS</b></a>, Deployed on <a href="https://vercel.com/"><b>Vercel</b></a>.
