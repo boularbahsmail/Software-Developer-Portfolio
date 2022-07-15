@@ -24,26 +24,26 @@ const Navbar = () => {
             </div>
             <nav>
                 <ul 
-                    className={`menu hidden absolute left-0 top-0 m-0 py-20 px-2 bg-black z-40 w-52 h-full sm:w-auto sm:bg-transparent sm:flex sm:py-0 sm:static sm:left-unset sm:top-unset ${styles.menu} ${menuOpen ? `${styles.open}` : ""}`}>
-                    <li className="mb-4 mx-3 sm:mb-0" title="Experiences">
-                        <a href="#experiences" className="text-2xs text-white font-semibold ease-in-out duration-150 hover:text-teal-400" onClick={() => closeMenu()}>
+                    className={`menu hidden absolute left-0 top-0 m-0 py-20 pt-16 px-4 bg-black z-40 w-full h-52 sm:w-unset sm:h-auto sm:bg-transparent sm:flex sm:py-0 sm:static sm:left-unset sm:top-unset ${styles.menu} ${menuOpen ? `${styles.open}` : ""}`}>
+                    <li className="mb-4 mt-2 mx-0 sm:mb-0 sm:mt-0 sm:mx-3" title="Experiences">
+                        <a href="#experiences" className="text-1xs text-white font-semibold ease-in-out duration-150 hover:text-teal-400" onClick={() => closeMenu()}>
                             Experiences
                         </a>
                     </li>
-                    <li className="mb-4 mx-3 sm:mb-0" title="Projects">
-                        <a href="#projects" className="text-2xs text-white font-semibold ease-in-out duration-150 hover:text-teal-400" onClick={() => closeMenu()}>
+                    <li className="mb-4 mx-0 sm:mb-0 sm:mx-3" title="Projects">
+                        <a href="#projects" className="text-1xs text-white font-semibold ease-in-out duration-150 hover:text-teal-400" onClick={() => closeMenu()}>
                             Projects
                         </a>
                     </li>
-                    <li className="mb-4 mx-3 sm:mb-0" title="Contact">
-                        <a href="#contact" className="text-2xs text-white font-semibold ease-in-out duration-150 hover:text-teal-400" onClick={() => closeMenu()}>
+                    <li className="mb-4 mx-0 sm:mb-0 sm:mx-3" title="Contact">
+                        <a href="#contact" className="text-1xs text-white font-semibold ease-in-out duration-150 hover:text-teal-400" onClick={() => closeMenu()}>
                             Contact
                         </a>
                     </li>
                 </ul>
             </nav>
             <div 
-                className={`flex flex-col justify-center items-center sm:hidden ${styles.hamburger} ${menuOpen ? `${styles.open}` : ""}`} 
+                className={`z-50 flex flex-col justify-center items-center sm:hidden ${styles.hamburger} ${menuOpen ? `${styles.open}` : ""}`} 
                 onClick={() => SetMenuOpen(!menuOpen)}>
                 <span className="h-0.5 w-7 mb-1.5 bg-white"></span>
                 <span className="h-0.5 w-7 mb-1.5 bg-white"></span>
