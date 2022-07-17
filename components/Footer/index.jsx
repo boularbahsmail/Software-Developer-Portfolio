@@ -59,6 +59,36 @@ const Footer = () => {
                 </ul>
                 <h5 className="text-white font-initial text-sm">&copy; 2022 - John Doe. All Rights Reserved.</h5>
             </div>
+            <div className="py-8 pt-0 px-2">
+                <h5 className="text-white text-sm text-center leading-6">
+                    &copy; 2022 - Made with ❤️ by {" "}
+                    <a href="https://twitter.com/boularbahsmail" target="_blank" rel="noreferrer" 
+                        className="font-semibold text-sky-500">
+                        Ismailium
+                    </a> {" "}
+                    using {" "}
+                    <a href="https://nextjs.org/" target="_blank" rel="noreferrer" 
+                        className="font-semibold text-sky-500">
+                        Next.js
+                    </a> {" "}
+                    & {" "}
+                    <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer" 
+                        className="font-semibold text-sky-500">
+                        TailwindCSS
+                    </a>. {" "} <br />
+                    Deployed on {" "}
+                    <a href="https://vercel.com/" target="_blank" rel="noreferrer" 
+                        className="font-semibold text-sky-500">
+                        Vercel
+                    </a>, {" "}
+                    Open Sourced on {" "}
+                    <a href="https://github.com/boularbahsmail/Software-Developer-Portfolio" 
+                        target="_blank" rel="noreferrer" 
+                        className="font-semibold text-sky-500">
+                        Github
+                    </a>.
+                </h5>
+            </div>
         </div>
     );
 }
